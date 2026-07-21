@@ -26,7 +26,7 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com
+   gh repo clone Andrej-Antipov/DensityFX
    ```
 2. Откройте проект в Xcode.
 3. **Важный шаг:** Перейдите во вкладку `Signing & Capabilities` вашего Target и полностью **удалите App Sandbox** (нажмите на крестик X). Приватные функции ядра дисплеев заблокированы внутри песочницы.
