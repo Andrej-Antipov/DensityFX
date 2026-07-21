@@ -27,7 +27,7 @@ The app parses the raw WindowServer memory buffer byte-by-byte and applies modes
 Since the app uses private APIs, it cannot be distributed via the Mac App Store. You can easily build it using Xcode:
 1. Clone the repository:
    ```bash
-   git clone Andrej-Antipov/DensityFX
+   git clone https://github.com/Andrej-Antipov/DensityFX
    ```
 2. Open the project in Xcode.
 3. **Important:** Go to the `Signing & Capabilities` tab and **remove App Sandbox** (click the 'X' button). Private display APIs are completely blocked inside the sandbox.
@@ -61,7 +61,7 @@ This project is licensed under the [MIT](LICENSE) License.
 Приложение использует приватные API, поэтому оно не может распространяться через Mac App Store. Вы можете легко собрать его сами через Xcode:
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/Andrej-Antipov/DensityFX
    ```
 2. Откройте проект в Xcode.
 3. **Важный шаг:** Перейдите во вкладку `Signing & Capabilities` вашего Target и полностью **удалите App Sandbox** (нажмите на крестик X). Приватные функции ядра дисплеев заблокированы внутри песочницы.
